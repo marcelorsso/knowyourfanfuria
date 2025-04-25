@@ -1,0 +1,55 @@
+.app {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  text-align: center; /* Isso já está centralizando o texto dentro da .app */
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center; /* Isso vai centralizar o texto dentro do campo input */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center; /* Centraliza o texto no botão */
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.resultado {
+  margin-top: 20px;
+  background-color: #0c0b0b;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center; /* Centraliza o texto dentro do resultado */
+}
+
+.erro {
+  color: red;
+  margin-top: 1rem;
+  text-align: center; /* Centraliza o texto de erro */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start; /* ou center, se quiser verticalmente também */
+  min-height: 100vh;
+  background-color: #121212;
+  color: #fff;
+}
